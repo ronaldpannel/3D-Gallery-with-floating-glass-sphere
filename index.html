@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Photo Gallery with floating glass Sphere</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="imgContainer" id="imgContainer">
+        <img src="gallery.jpg" alt="menu picture" />
+      </div>
+      <div class="content" id="content">
+        <h1>3D Photo Gallery</h1>
+        <p>This is an interactive 3D gallery</p>
+        <p>Driven by Three.js</p>
+
+        <p>Instructions</p>
+        <p>zoom Arrow Keys or W, A, D, S keys</p>
+        <p>Move around by clicking and dragging mouse</p>
+
+        <button id="enterBtn" class="enterBtn">Enter Gallery</button>
+      </div>
+      -->
+    </div>
+    <div id="photoInfo" class="photoInfo"></div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
